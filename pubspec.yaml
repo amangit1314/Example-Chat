@@ -1,0 +1,35 @@
+name: chatapp
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.4.0
+  cupertino_icons: ^1.0.3
+  firebase_auth: ^3.0.1
+  google_fonts: ^2.1.0
+  google_sign_in: ^5.0.5
+  random_string: ^2.0.1
+  shared_preferences: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: OverpassRegular
+      fonts:
+        - asset: assets/fonts/overpass_regular.otf
